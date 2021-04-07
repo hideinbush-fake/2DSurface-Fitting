@@ -1,0 +1,20 @@
+﻿Build started 2020/8/5 20:52:38.
+     1>Project "F:\myapp\surfacefit\surfacefit\surfacefit.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\VS\VC\bin\CL.exe /c /I"G:\1f version\原始\NxtSCAN_CTI\3rdparty\Eigen\\" /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _LIB /D _CRT_SECURE_NO_WARNINGS /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Release\surfacefit.pch" /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt surfacefit.cpp
+         surfacefit.cpp
+     1>surfacefit.cpp(234): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>surfacefit.cpp(235): warning C4244: '=' : conversion from 'double' to 'float', possible loss of data
+     1>surfacefit.cpp(394): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>surfacefit.cpp(399): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+       Link:
+         D:\VS\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\myapp\surfacefit\Release\surfacefit.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\myapp\surfacefit\Release\surfacefit.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\myapp\surfacefit\Release\surfacefit.lib" /MACHINE:X86 /SAFESEH Release\stdafx.obj
+         Release\surfacefit.obj
+         Generating code
+         Finished generating code
+         surfacefit.vcxproj -> F:\myapp\surfacefit\Release\surfacefit.exe
+     1>Done Building Project "F:\myapp\surfacefit\surfacefit\surfacefit.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:07.09
